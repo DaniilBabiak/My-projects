@@ -1,0 +1,709 @@
+<!Doctype html>
+<html id="snowfall-wrapper">
+<head>
+    <meta charset="utf-8">
+    <title>HomeWork</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="image.psd.png">
+    <script src="jquery-3.6.0.min%20(1).js"></script>
+    <script src="https://kit.fontawesome.com/8a0043cf17.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="/path/to/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <div class="logo-wrapper">
+        <p class="logo-title">
+            <span class="logo-img_setting">
+           <img class="logo-img" src="mainimg/eth.png">
+            </span>
+            Outpost
+        </p>
+    </div>
+    <div class="navbar-wrapper">
+        <div class="search-bar-wrapper">
+            <form class="input-form">
+                <button class="input-button">
+                    <i class="fas fa-search input-search-setting"></i>
+                </button>
+                <input class="search-bar" type="text" placeholder="Search art or artist...">
+            </form>
+        </div>
+
+        <div class="profile-wrapper">
+            <div class="profile-img-wrapper">
+                <img draggable="false" class="profile-img" src="mainimg/76.jpg">
+            </div>
+            <div class="profile-info">
+                <p class="profile-name colordropdown">
+                    @poptarts
+                </p>
+                <p class="profile_bank-account colorgray">
+                    0xCcK201bq3g932...
+                </p>
+            </div>
+
+            <div class="profile_dropdown-toggle" id="dropdown-toggle">
+                <i class="fas fa-chevron-down colordropdown"></i>
+                <div class="dropdown-toggle_menu">
+                    <div class="menu-section profile-menu">
+                        <p class="menu-item">
+                <span class="menu-item_icon">
+                   <i class="fas fa-th-large"></i>
+                </span>
+                            Overview
+                        </p>
+                        <p class="menu-item">
+                <span class="menu-item_icon">
+                   <i class="fas fa-tags"></i>
+                </span>
+                            Active Bids
+                        </p>
+                        <p class="menu-item">
+                <span class="menu-item_icon">
+                    <i class="far fa-heart"></i>
+                </span>
+                            Favorites
+                        </p>
+                        <p class="menu-item">
+                <span class="menu-item_icon">
+                    <i class="fas fa-users"></i>
+                </span>
+                            Community
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="notification-button-wrapper">
+            <div class="notification-button">
+                <i class="far fa-bell colordropdown font-size-bell"></i>
+                <span class="notification-value colordropdown">1</span>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<section class="content">
+    <aside class="menu">
+        <div class="menu-section">
+            <p class="menu-title">Menu</p>
+            <p class="menu-item">
+                <span class="menu-item_icon">
+                   <i class="fas fa-th-large"></i>
+                </span>
+                Overview
+            </p>
+            <p class="menu-item">
+                <span class="menu-item_icon">
+                   <i class="fas fa-tags"></i>
+                </span>
+                Active Bids
+            </p>
+            <p class="menu-item">
+                <span class="menu-item_icon">
+                    <i class="far fa-heart"></i>
+                </span>
+                Favorites
+            </p>
+            <p class="menu-item">
+                <span class="menu-item_icon">
+                    <i class="fas fa-users"></i>
+                </span>
+                Community
+            </p>
+        </div>
+        <div class="menu-section">
+            <p class="menu-title">Account</p>
+            <p class="menu-item">
+                <span class="menu-item_icon">
+                    <i class="far fa-folder"></i>
+                </span>
+                My Collections
+            </p>
+            <p class="menu-item menu-item_relative ">
+                <span class="menu-item_icon">
+                    <i class="fas fa-shopping-basket"></i>
+                </span>
+                My offers
+                <span class="red-dot" id="myOffersRedDot"></span>
+            </p>
+            <p class="menu-item menu-item_relative ">
+                <span class="menu-item_icon">
+                    <i class="fas fa-chart-line"></i>
+                </span>
+                Activities
+                <span class="red-dot" id="activitiesRedDot"></span>
+            </p>
+            <p class="menu-item">
+                <span class="menu-item_icon">
+                    <i class="fas fa-chart-pie"></i>
+                </span>
+                Statistics
+
+            </p>
+        </div>
+        <div class="menu-section settings">
+            <div class="settings-wrapper">
+                <p class="menu-item">
+                <span class="menu-item_icon-settings">
+                    <i class="fas fa-cog"></i>
+                </span>
+                    Settings
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    <main class="main-content_wrapper">
+        <div class="main-content_margin">
+            <div class="main-content main-content_top">
+                <div class="main-content-left main-background ">
+                    <div draggable="false" class="bid-offer_margin">
+                        <div class="bid-offer">
+                            <div draggable="false" class="bid-offer-img_wrapper">
+                                <img draggable="false" class="bid-offer-img" src="mainimg/main_img.jpg">
+                                <div class="bid-img-title">
+                                    <p class="bid-img-title_text">
+                                        Featured Artwork
+                                    </p>
+                                </div>
+                                <div class="favorite">
+                                    <i class="far fa-heart "></i>
+                                </div>
+                            </div>
+                            <div class="bid-offer-content_wrapper">
+                                <p class="bid-offer-content_title">
+                                    96 Zero - #20 "Never After" - <br>
+                                    The Reckoning
+                                </p>
+                                <p class="bid-offer-content_description">
+                                    The most valuable elements known in the world,<br>
+                                    same of which were farmed naturally and same...
+                                </p>
+                                <div class="bid-content_author-wrapper">
+                                    <div class="author-img">
+                                        <img class="author_img" src="mainimg/author.jpg">
+                                    </div>
+                                    <div class="author-name">
+                                        <p class="author_name">
+                                            @darwinabc
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="current-bid_wrapper">
+                                    <div class="current-bid_left">
+                                        <p class="current-bid_title">
+                                            Current Bid
+                                        </p>
+                                        <div class="current-bid-left_item">
+                                            <div class="current-bid-left_item_img">
+                                                <img class="current-bid_img" src="mainimg/eth.png">
+                                            </div>
+                                            <div class="current-bid-right_count">
+                                                <p class="current-bid_top">
+                                                    0.352 ETH
+                                                </p>
+                                                <p class="current-bid_bottom">
+                                                    $1.650~
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="current-bid_right">
+                                        <p class="current-bid_title">
+                                            Ends in
+                                        </p>
+                                        <div class="end-timer" id="endTimer">
+                                            <p class="current-bid-right-content_number">
+                                                Done
+                                            </p>
+                                        </div>
+                                        <div class="current-bid-right_item" id="countdown">
+                                            <div class="current-bid-right-content">
+
+                                                <p class="current-bid-right-content_number hours">
+
+                                                </p>
+                                                <p class="current-bid-right-content_time">
+                                                    hours
+                                                </p>
+                                            </div>
+                                            <div class="current-bid-right-content current-bid-right-content-middle">
+                                                <p class="current-bid-right-content_number minutes">
+
+                                                </p>
+                                                <p class="current-bid-right-content_time">
+                                                    minutes
+                                                </p>
+                                            </div>
+                                            <div class="current-bid-right-content">
+                                                <p class="current-bid-right-content_number seconds">
+
+                                                </p>
+                                                <p class="current-bid-right-content_time">
+                                                    seconds
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bid-buttons_wrapper">
+                                    <div class="bid-button">
+                                        <button class="bid-button_left bid-button_setting">View Artwork</button>
+                                    </div>
+                                    <div class="bid-button">
+                                        <button class="bid-button_right bid-button_setting">Place Bid</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-content-right top-creators main-background ">
+                    <div class=" justify-content_center">
+                        <div class="main-content-right_wrapper">
+                            <div class="main-content-right_title">
+                                <p class="main-content_name">
+                                    Top Creators
+                                </p>
+                                <button class="view-all">
+                                    View all
+                                </button>
+                            </div>
+                            <div class="top-creators_user">
+                                <div class="top-creators_user-profile">
+                                    <div class="top-creators_user-profile_img-wrapper">
+                                        <img class="top-creators_user-profile_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <p class="top-creators_user-profile-username">
+                                        @vladymyr
+                                    </p>
+                                </div>
+                                <div class="top-creators-user_total-sale-eth">
+                                    <p class="top-creators-user_total-sale-eth_title">
+                                        Total Sale
+                                    </p>
+                                    <p class="top-creators-user_total-sale-eth_title-value">
+                                        ETH 14.03
+                                    </p>
+                                </div>
+                                <div class="top-creators-user_total-sold-nft">
+                                    <p class="top-creators-user_total-sold-nft-title">
+                                        NFT(s) sold
+                                    </p>
+                                    <p class="top-creators-user_total-sold-nft-title-value">
+                                        18
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="top-creators_user">
+                                <div class="top-creators_user-profile">
+                                    <div class="top-creators_user-profile_img-wrapper">
+                                        <img class="top-creators_user-profile_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <p class="top-creators_user-profile-username">
+                                        @vladymyr
+                                    </p>
+                                </div>
+                                <div class="top-creators-user_total-sale-eth">
+                                    <p class="top-creators-user_total-sale-eth_title">
+                                        Total Sale
+                                    </p>
+                                    <p class="top-creators-user_total-sale-eth_title-value">
+                                        ETH 14.03
+                                    </p>
+                                </div>
+                                <div class="top-creators-user_total-sold-nft">
+                                    <p class="top-creators-user_total-sold-nft-title">
+                                        NFT(s) sold
+                                    </p>
+                                    <p class="top-creators-user_total-sold-nft-title-value">
+                                        18
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="top-creators_user">
+                                <div class="top-creators_user-profile">
+                                    <div class="top-creators_user-profile_img-wrapper">
+                                        <img class="top-creators_user-profile_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <p class="top-creators_user-profile-username">
+                                        @vladymyr
+                                    </p>
+                                </div>
+                                <div class="top-creators-user_total-sale-eth">
+                                    <p class="top-creators-user_total-sale-eth_title">
+                                        Total Sale
+                                    </p>
+                                    <p class="top-creators-user_total-sale-eth_title-value">
+                                        ETH 14.03
+                                    </p>
+                                </div>
+                                <div class="top-creators-user_total-sold-nft">
+                                    <p class="top-creators-user_total-sold-nft-title">
+                                        NFT(s) sold
+                                    </p>
+                                    <p class="top-creators-user_total-sold-nft-title-value">
+                                        18
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="top-creators_user">
+                                <div class="top-creators_user-profile">
+                                    <div class="top-creators_user-profile_img-wrapper">
+                                        <img class="top-creators_user-profile_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <p class="top-creators_user-profile-username">
+                                        @vladymyr
+                                    </p>
+                                </div>
+                                <div class="top-creators-user_total-sale-eth">
+                                    <p class="top-creators-user_total-sale-eth_title">
+                                        Total Sale
+                                    </p>
+                                    <p class="top-creators-user_total-sale-eth_title-value">
+                                        ETH 14.03
+                                    </p>
+                                </div>
+                                <div class="top-creators-user_total-sold-nft">
+                                    <p class="top-creators-user_total-sold-nft-title">
+                                        NFT(s) sold
+                                    </p>
+                                    <p class="top-creators-user_total-sold-nft-title-value">
+                                        18
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="main-content main-content_bottom">
+                <div class="main-content-left_bottom tabs ">
+                    <div class="tabs_nav-tabs">
+                        <div class="swichers-wrapper">
+                            <div data-connected-content="0" class="tabs_nav-tabs-swicher switcher_active">
+                                <p class="tabs_nav-tabs-swicher-name">Trending</p>
+                            </div>
+                            <div  data-connected-content="1" class="tabs_nav-tabs-swicher">
+                                <p class="tabs_nav-tabs-swicher-name">Following</p>
+                            </div>
+                            <div data-connected-content="2" class="tabs_nav-tabs-swicher">
+                                <p class="tabs_nav-tabs-swicher-name">Packs</p>
+                            </div>
+                            <div data-connected-content="3" class="tabs_nav-tabs-swicher">
+                                <p class="tabs_nav-tabs-swicher-name">Recent</p>
+                            </div>
+                        </div>
+                        <button class="tabs_nav-tabs-button toggle-button" style="display: none">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button class="tabs_nav-tabs-button toggle-button">
+                            <i class="fas fa-pause"></i>
+                        </button>
+                    </div>
+                    <div data-content-id="0" class="tabs_nav-tabs_tabs-content-wrapper active-tab">
+                        <div class="tabs-content_wrapper">
+                            <div class="tabs-content  main-background">
+                                <div class="tabs-margin-x">
+                                    <div class="tabs-margin-y">
+                                        <img draggable="false" class="active-tab_img" src="mainimg/tabs-img.jpg">
+                                        <div class="tabs-content-user">
+                                            <div class="content-user_author">
+                                                <div class="tabs-content-user-img">
+                                                    <img draggable="false" class="tabs_img"
+                                                         src="mainimg/tabs-userimg.jpg">
+                                                </div>
+                                                <div class="tabs-content-user-name">
+                                                    <p class="tabs-user-name">
+                                                        @thevulture
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="tabs-content_img-text">
+                                                RiftWalker<br>
+                                                Complete<br>
+                                                Pack
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs-content_wrapper">
+                            <div class="tabs-content main-background">
+                                <div class="tabs-margin-x">
+                                    <div class="tabs-margin-y flex-column">
+                                        <div class="tab-content-top">
+                                            <img draggable="false" class="tab_img" src="mainimg/tabs-img.jpg">
+                                            <div class="tabs-content-user">
+                                                <div class="content-user_author">
+                                                    <div class="tabs-content-user-img">
+                                                        <img draggable="false" class="tabs_img"
+                                                             src="mainimg/tabs-userimg.jpg">
+                                                    </div>
+                                                    <div class="tabs-content-user-name">
+                                                        <p class="tabs-user-name">
+                                                            @thevulture
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="favorite_tabs">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-content-bottom">
+                                            <p class="tab-content-bottom_name">
+                                                Kaleidoscope #15
+                                            </p>
+                                            <div class="tab-content-bottom-inner">
+                                                <p class="tab-content-bottom-inner_title-text">
+                                        <span class="tabs-eth_img">
+                                            <img class="eth-img" src="mainimg/eth.png">
+                                        </span>
+                                                    0.32 ETH
+                                                </p>
+                                                <p class="tab-content-bottom-inner_value-text">
+                                                    $1.471~
+                                                </p>
+                                            </div>
+                                            <div class="tab-button_wrapper">
+                                                <button class="tab-content-bottom_button bid-button_setting">View
+                                                    Artwork
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs-content_wrapper">
+                            <div class="tabs-content main-background">
+                                <div class="tabs-margin-x">
+                                    <div class="tabs-margin-y flex-column">
+                                        <div class="tab-content-top">
+                                            <img draggable="false" class="tab_img" src="mainimg/tabs-img.jpg">
+                                            <div class="tabs-content-user">
+                                                <div class="content-user_author">
+                                                    <div class="tabs-content-user-img">
+                                                        <img draggable="false" class="tabs_img"
+                                                             src="mainimg/tabs-userimg.jpg">
+                                                    </div>
+                                                    <div class="tabs-content-user-name">
+                                                        <p class="tabs-user-name">
+                                                            @thevulture
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="favorite_tabs">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-content-bottom">
+                                            <p class="tab-content-bottom_name">
+                                                Kaleidoscope #15
+                                            </p>
+                                            <div class="tab-content-bottom-inner">
+                                                <p class="tab-content-bottom-inner_title-text">
+                                        <span class="tabs-eth_img">
+                                            <img class="eth-img" src="mainimg/eth.png">
+                                        </span>
+                                                    0.32 ETH
+                                                </p>
+                                                <p class="tab-content-bottom-inner_value-text">
+                                                    $1.471~
+                                                </p>
+                                            </div>
+                                            <div class="tab-button_wrapper">
+                                                <button class="tab-content-bottom_button bid-button_setting">View
+                                                    Artwork
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div data-content-id="1" class="tabs_nav-tabs_tabs-content-wrapper">
+                        <div class="content-tabs_wrapper">
+                            <p class="content_inside-tabs">
+                                SOME CONTENT
+                            </p>
+                        </div>
+                    </div>
+                    <div data-content-id="2" class="tabs_nav-tabs_tabs-content-wrapper">
+                        <div class="content-tabs_wrapper">
+                            <p class="content_inside-tabs color-red">
+                                SOME CONTENT
+                            </p>
+                        </div>
+                    </div>
+                    <div data-content-id="3" class="tabs_nav-tabs_tabs-content-wrapper">
+                        <div class="content-tabs_wrapper">
+                            <p class="content_inside-tabs color-blue">
+                                SOME CONTENT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-content-right main-background ">
+                    <div class="justify-content_center">
+                        <div class="main-content-right_wrapper">
+                            <div class="main-content-right-switchers">
+                                <div class="tabs_nav-tabs-swicher_right switcher_active-right">
+                                    <p class="tabs_nav-tabs-swicher-name_right">Following</p>
+                                </div>
+                                <div class="tabs_nav-tabs-swicher_right">
+                                    <p class="tabs_nav-tabs-swicher-name_right">For You</p>
+                                </div>
+                            </div>
+                            <div class="main-content-right-users-wrapper">
+                                <div class="main-content-right-users">
+                                    <div class="main-content-right-users_img">
+                                        <img class="users_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <div class="text-rigth_wrapper">
+                                        <p class="main-content-right-users_info">
+                                            <span>@jprogers</span> made an offer for <span>ETH 0.5</span> on
+                                            <span>Stargazing</span>
+                                        </p>
+                                        <p class="users-lastjoin">
+                                            13 mins ago
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="main-content-right-users">
+                                    <div class="main-content-right-users_img">
+                                        <img class="users_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <div class="text-rigth_wrapper">
+                                        <p class="main-content-right-users_info">
+                                            <span>@jprogers</span> made an offer for <span>ETH 0.5</span> on
+
+                                        </p>
+                                        <p class="users-lastjoin">
+                                            13 mins ago
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="main-content-right-users">
+                                    <div class="main-content-right-users_img">
+                                        <img class="users_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <div class="text-rigth_wrapper">
+                                        <p class="main-content-right-users_info">
+                                            <span>@jprogers</span> made an offer for <span>ETH 0.5</span> on
+                                            <span>Stargazing</span>
+                                        </p>
+                                        <p class="users-lastjoin">
+                                            13 mins ago
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="main-content-right-users">
+                                    <div class="main-content-right-users_img">
+                                        <img class="users_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <div class="text-rigth_wrapper">
+                                        <p class="main-content-right-users_info">
+                                            <span>@jprogers</span> made an offer for <span>ETH 0.5</span> on
+                                            <span>Stargazing</span>
+                                        </p>
+                                        <p class="users-lastjoin">
+                                            13 mins ago
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="main-content-right-users">
+                                    <div class="main-content-right-users_img">
+                                        <img class="users_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <div class="text-rigth_wrapper">
+                                        <p class="main-content-right-users_info">
+                                            <span>@jprogers</span> made an offer for <span>ETH 0.5</span> on
+                                            <span>Stargazing</span>
+                                        </p>
+                                        <p class="users-lastjoin">
+                                            13 mins ago
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="main-content-right-users">
+                                    <div class="main-content-right-users_img">
+                                        <img class="users_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <div class="text-rigth_wrapper">
+                                        <p class="main-content-right-users_info">
+                                            <span>@jprogers</span> made an offer for <span>ETH 0.5</span> on
+                                            <span>Stargazing</span>
+                                        </p>
+                                        <p class="users-lastjoin">
+                                            13 mins ago
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="main-content-right-users">
+                                    <div class="main-content-right-users_img">
+                                        <img class="users_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <div class="text-rigth_wrapper">
+                                        <p class="main-content-right-users_info">
+                                            <span>@jprogers</span> made an offer for <span>ETH 0.5</span> on
+                                            <span>Stargazing</span>
+                                        </p>
+                                        <p class="users-lastjoin">
+                                            13 mins ago
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="main-content-right-users">
+                                    <div class="main-content-right-users_img">
+                                        <img class="users_img" src="mainimg/userimg.gif">
+                                    </div>
+                                    <div class="text-rigth_wrapper">
+                                        <p class="main-content-right-users_info">
+                                            <span>@jprogers</span> made an offer for <span>ETH 0.5</span> on
+                                            <span>Stargazing</span>
+                                        </p>
+                                        <p class="users-lastjoin">
+                                            13 mins ago
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+</section>
+<script src="carousel.js"></script>
+<script src="timer.js"></script>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="jquery.snowfall.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
