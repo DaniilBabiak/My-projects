@@ -1,0 +1,1130 @@
+body{
+    margin: 0;
+    min-width: 400px;
+}
+.start{
+    display:flex;
+    position: relative;
+}
+.item1{
+    display:flex;
+    flex-basis:20%;
+    flex-direction: column;
+    background: url(https://look.com.ua/pic/201209/1366x768/look.com.ua-33292.jpg);
+    min-width: 384.3px;
+
+
+}
+.item1top{
+    height: 5.896vh;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid black;
+    min-height: 57.13px;
+}
+.item1top-left{
+    flex-basis: 15%;
+    text-align: center;
+}
+.fa-bars{
+    font-size: 120%;
+}
+.item1top-right{
+    flex-basis:85%;
+
+}
+.input-right{
+    width: 90%;
+    font-size: 150%;
+    border:none;
+    padding-left: 5%;
+    outline: none;
+    font-family: Calibri;
+    background: url(#);
+}
+.item1bottom{
+
+    display: flex;
+    flex-direction: column;
+    max-height: 1080px;
+    overflow-y: scroll;
+    height: 94vh;
+}
+.user{
+    height: 6vh;
+    display:flex;
+    width: 100%;
+    padding:1% 0;
+    min-height: 60.56px;
+
+}
+.user-left{
+    display: flex;
+    flex-basis: 23%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.user-right{
+    flex-basis:77%;
+    display: flex;
+    flex-direction: column;
+
+}
+.top-left{
+    display: flex;
+    flex-basis: 80%;
+    font-weight: 800;
+}
+.last-right{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+.top{
+    display: flex;
+    flex-basis: 50%;
+    align-items: flex-end;
+}
+.bottom{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+.chat-message{
+    display: flex;
+    flex-basis: 93%;
+}
+.strong{
+    color: #077be8;
+}
+.important{
+    display: flex;
+}
+.fa-check-double{
+    color:#077be8;
+}
+.fa-check{
+    color: #077be8;
+}
+
+
+
+
+
+
+
+
+
+
+.text-left{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.photo{
+    width: 59%;
+    height: 85%;
+    border-radius: 50%;
+}
+.status:after{
+    content:"";
+    display: block;
+    width: 14%;
+    height: 14%;
+    border:1px solid blue;
+    border-radius: 82%;
+    background: #0095ff;
+    position: absolute;
+    left: 72.5%;
+    top:66%;
+}
+.text-right{
+    margin:0;
+}
+
+.item2{
+    display:flex;
+    flex-basis:80%;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left:1px solid black;
+}
+.first{
+    display:flex;
+    height: 5.896vh;
+    border-bottom: 1px solid black;
+    background: url(https://look.com.ua/pic/201209/1366x768/look.com.ua-33292.jpg);
+    min-height: 57px;
+}
+
+.third{
+    display: flex;
+    height: 5.896vh;
+    align-items: center;
+    border-top: 1px solid black;
+    background: url(https://look.com.ua/pic/201209/1366x768/look.com.ua-33292.jpg);
+    min-height: 57px;
+}
+.first-left{
+    display: flex;
+    flex-basis:89%;
+    flex-direction: column;
+}
+.first-left:focus.after{
+    color:white;
+}
+.first-right{
+    flex-basis:11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 58px;
+    min-width: 169px;
+}
+.half{
+    display:flex;
+    align-items: center;
+    flex-basis: 50%;
+    margin: 0;
+    font-size:130%;
+    padding-left: 1%;
+}
+.half2{
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    margin: 0;
+    font-size: 95%;
+    padding-left: 1%;
+}
+
+.bottom-left{
+    flex-basis:5%;
+    text-align: center;
+    height: 5.896vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-center{
+    display:flex;
+    flex-basis:90%;
+    height: 5.896vh;
+}
+.bottom-right{
+    display:flex;
+    flex-basis:4%;
+    justify-content: space-around;
+    font-size:135%;
+    height: 5.896vh;
+    align-items: center;
+    min-width: 77px;
+    min-height: 58px;
+}
+.bottom-message{
+    width: 98%;
+    font-size: 130%;
+    border:none;
+    outline: none;
+    background: url(https://look.com.ua/pic/201209/1366x768/look.com.ua-33292.jpg);
+
+}
+::placeholder{
+ font-size: 1.25rem;
+    
+
+}
+
+.fa-paperclip{
+    font-size: 130%;
+}
+.fa-paperclip:hover{
+    opacity:.5;
+}
+.hover{
+    background-color: #a6a6a6;
+}
+.fa-search:hover{
+    opacity:.5;
+}
+.fa-phone:hover{
+    opacity:.5;
+}
+.fa-square:hover{
+    opacity:.5;
+}
+.fa-ellipsis-v:hover{
+    opacity:.5;
+}
+.fa-bars:hover{
+    opacity:.5;
+}
+.fa-smile:hover{
+    opacity: .5;
+}
+.fa-smile:after{
+    content:"";
+}
+
+.fa-microphone:hover{
+    opacity:.5;
+}
+.user:hover{
+    background-color: #d1d1d1;
+}
+.user-hover:hover{
+    background-color: #d1d1d1;
+}
+.chat{
+    display: flex;
+    color: white;
+    width: 100%;
+    align-items: flex-end;
+    max-width: 400px;
+    margin-bottom:3px;
+    margin-top: 3px;
+}
+.chat-photo{
+    flex-basis: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.message_status{
+    flex-basis: 5%;
+    justify-content: center;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+.second-chat{
+    display: flex;
+    height: 88vh;
+    width: 100%;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+    background: url(https://img5.goodfon.ru/wallpaper/nbig/4/fc/les-sosny-sosnovyi-bor.jpg)no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.call{
+    display: flex;
+    min-height: 29px;
+    background: #009de0;
+    color:white;
+    display: none;
+}
+.call-micro{
+    display: flex;
+    flex-basis: 100%;
+}
+.call-start{
+    display: flex;
+    flex-basis: 3%;
+    justify-content: center;
+    align-items: center;
+    min-width: 46.05px;
+}
+.fa-microphone-slash:hover{
+    color:#ff4242;
+}
+.call-duration{
+    display: flex;
+    flex-basis: 3%;
+    justify-content: center;
+    align-items: center;
+    min-width: 46.05px;
+}
+.call-status{
+    display: flex;
+    flex-basis: 3%;
+    justify-content: center;
+    align-items: center;
+    min-width: 46.05px;
+}
+.call-name{
+    display: flex;
+    flex-basis: 79%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.call-end{
+    display: flex;
+    flex-basis: 3%;
+    justify-content: center;
+    align-items: center;
+    min-width: 46.05px;
+}
+.fa-phone-slash:hover{
+    color:#ff4242;
+}
+.call-final{
+    display: flex;
+    flex-basis: 9%;
+    justify-content: center;
+    align-items: center;
+    min-width: 138.16px;
+}
+.message{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.chat_photo{
+    width: 55%;
+    height: 60%;
+    border-radius: 50%;
+    min-height: 45px;
+    min-width: 45px;
+    margin:0 10px;
+}
+.message-wrapper{
+    display: flex;
+    border-radius: 0.5rem;
+    position: relative;
+    background: #bababa;
+    z-index: 0;
+    flex-direction: column;
+    min-height: 50px;
+    min-width: 140px;
+    height: 100%;
+}
+.message-top{
+    display: flex;
+    flex-basis: 63%;
+    align-items: end;
+    margin: 1px 5px;
+    max-width: 95%;
+}
+.message-bot{
+    display: flex;
+    flex-basis: 37%;
+    justify-content: flex-end;
+}
+.message-time{
+    margin-right: 5px;
+    font-size: 90%;
+}
+.message-wrapper:before{
+    height: 2px;
+    content:"";
+    border-bottom: 10px solid #bababa;
+    border-left: 15px solid transparent;
+    position: absolute;
+    left: -11.7px;
+    width: 3px;
+    z-index: -1;
+    bottom: 0;
+}
+.message-status{
+    font-size: 90%;
+    margin-right: 5px;
+}
+
+.main-message{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin: 5px 5px;
+    min-height: 30px;
+    position: relative;
+    flex-basis: 80% ;
+}
+.main-time{
+    margin: 0;
+    display: flex;
+    font-size: 90%;
+    flex-basis: 10%;
+    justify-content: end;
+    align-items: end;
+
+}
+.main-status{
+    font-size: 90%;
+    flex-basis: 10%;
+    display: flex;
+    margin: 0;
+    justify-content: end;
+    align-items: end;
+}
+.triangle-bottom-right {
+    height: 0;
+    border-bottom: 10px solid #bababa;
+    border-left: 15px solid transparent;
+    position: absolute;
+    left: -11.7px;
+    bottom:-3%;
+    width: 3px;
+    z-index: -1;
+
+}
+.after{
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    max-width: 240px;
+    width: 100%;
+    display: none;
+    height: 100%;
+    justify-content: space-between;
+}
+.after-top{
+    display: flex;
+    flex-basis: 15%;
+    flex-direction: column;
+    background: #009de0;
+    width: 100%;
+    max-width: 240px;
+    min-width: 240px;
+    height: 100%;
+    max-height: 145.19px;
+    min-height: 145.19px;
+}
+.after-center{
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    max-width: 240px;
+    min-width: 240px;
+    width: 100%;
+    background: #288db8;
+    height: 100%;
+}
+.center-item{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    min-height: 48.44px;
+}
+.center-item:hover{
+    background: #1d4d61;
+}
+.center-item-icon{
+    display:flex;
+    flex-basis:20%;
+    justify-content: center;
+    font-size: 120%;
+    color: #c7c7c7;
+    margin-left: 6%;
+}
+.center-item-text{
+    display:flex;
+    flex-basis:65%;
+    margin-left: 2%;
+    color:white;
+}
+.after-bottom{
+    display: flex;
+    flex-basis: 10%;
+    flex-direction: column;
+    background: #288db8;
+    font-size: 95%;
+    color: #b7b7b7;
+    min-height: 79px;
+}
+.bottom-top{
+    display: flex;
+    flex-basis: 50%;
+    margin-left: 25px;
+    align-items: center;
+
+}
+.fa-toggle-on{
+    margin-left: 25px;
+    font-size: 160%;
+}
+.bottom-bot{
+    display: flex;
+    flex-basis:50%;
+    margin-left: 25px;
+}
+.after-top-top{
+    flex-basis: 50%;
+    margin: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.after-top-bottom{
+    flex-basis: 50%;
+    margin: 5px 10px;
+    display: flex;
+}
+.after-top-top-left{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: start;
+
+}
+.after-top-top-right{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: end;
+    font-size: 110%;
+    color: white;
+}
+.after-top-photo{
+    width: 45%;
+    border-radius: 50%;
+}
+.fa-bookmark:after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #0577a8;
+    z-index: 1;
+    right: 12.3px;
+    top: 20.6px;
+    border-radius: 15px;
+}
+.fa-bookmark:before {
+    content: "\f02e";
+    position: relative;
+    z-index: 2;
+    left:-0.2px;
+}
+.after-top-bottom-left{
+    display: flex;
+    flex-basis: 85%;
+    flex-direction: column;
+}
+.after-top-bottom-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+    margin-top: -13%;
+}
+.after-top-bottom-right-square{
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    color: white;
+    transform: rotate(135deg);
+    left: 19px;
+}
+.after-top-bottom-left-top{
+    display: flex;
+    flex-basis: 50%;
+    margin-left: 9%;
+}
+.nameofuser{
+    margin:0;
+    color: white;
+    font-size:100%
+}
+.after-top-bottom-left-bottom{
+    display: flex;
+    flex-basis: 50%;
+    margin-left: 16px;
+}
+.numberofuser{
+    margin: 0;
+    font-size: 90%;
+    color: white;
+}
+.margin{
+    margin-top:5px;
+}
+.chat-to-me{
+    display: flex;
+    color: white;
+    width: 100%;
+    align-items: flex-end;
+    max-width: 400px;
+    margin-bottom:3px;
+    margin-top: 3px;
+
+}
+.chat-photo-to-me{
+    flex-basis: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat_photo-to-me{
+    width: 55%;
+    height: 60%;
+    border-radius: 50%;
+    min-height: 45px;
+    min-width: 45px;
+    margin:0 10px;
+}
+.message-wrapper-to-me{
+    display: flex;
+    border-radius: 0.5rem;
+    position: relative;
+    background: #59cff3;
+    z-index: 0;
+    flex-direction: column;
+    min-height: 50px;
+    min-width: 140px;
+    height: 100%;
+}
+.message-wrapper-to-me:before{
+    height: 2px;
+    content: "";
+    border-bottom: 10px solid #59cff3 ;
+    border-left: 15px solid transparent;
+    position: absolute;
+    left: -11.7px;
+    width: 3px;
+    z-index: -1;
+    bottom: 0;
+}
+.message-top-to-me{
+    display: flex;
+    flex-basis: 63%;
+    align-items: end;
+    margin: 1px 5px;
+    max-width: 95%;
+}
+.message-bot-to-me{
+    display: flex;
+    flex-basis: 37%;
+    justify-content: flex-end;
+}
+.message-time-to-me{
+    margin-right: 5px;
+    font-size: 90%;
+}
+.message-status-to-me{
+    font-size: 90%;
+    margin-right: 5px;
+}
+@media screen and (max-width: 768px) {
+    .item1 {
+        display: none;
+    }
+    .item2{
+        flex-basis:100%;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    .chat-to-me{
+        align-self: end;
+        margin-right: 3%;
+        flex-direction: row-reverse;
+
+
+    }
+.chat-photo-to-me{
+    display: none;
+}
+.message-wrapper-to-me:before{
+    height: 2px;
+    content: "";
+    border-bottom: 10px solid #59cff3;
+    border-right: 15px solid transparent;
+    position: absolute;
+    left: 380px;
+    width: 3px;
+    z-index: -1;
+    bottom: 0;
+}
+.chat-photo{
+    display: none;
+}
+.chat{
+    margin-left: 3%;
+}
+}
+
+
+@media screen and (max-width: 1400px){
+    .item1{
+        min-width: 345px;
+    }
+    .chat-message{
+        font-size: 0.9rem;
+        flex-basis: 92%;
+    }
+    .top-left{
+        flex-basis:74%;
+    }
+    .last-right{
+        width: 24%;
+    }
+    .photo{
+        height:80%;
+        width: 63%;
+    }
+}
+@media screen and (max-width: 1300px){
+    .item1{
+        min-width: 325px;
+    }
+    .chat-message{
+        font-size: 0.9rem;
+    }
+    .photo{
+        width: 65%;
+        height: 80%;
+
+    }
+}
+@media screen and (max-width: 1200px){
+    .item1{
+        min-width: 310px;
+    }
+    .chat-message{
+        font-size: 0.88rem;
+    }
+
+}
+@media screen and (max-width: 1100px){
+    .item1{
+        min-width: 300px;
+    }
+    .chat-message{
+        font-size: 0.86rem;
+    }
+    .photo{
+        height: 80%;
+        width: 70%;
+    }
+
+}
+@media screen and (max-width: 405px){
+ .message-wrapper-to-me:before{
+     left:377px;
+ }
+}
+*::-webkit-scrollbar{
+    width: 5px;
+}
+*::-webkit-scrollbar-track{
+    background: #4b4b4b;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 20px;
+    border:3px solid grey;
+}
+.item3{
+    display: flex;
+    flex-basis: 17%;
+    flex-direction: column;
+    background: url(https://look.com.ua/pic/201209/1366x768/look.com.ua-33292.jpg);
+    display: none;
+}
+.item3-nav{
+    display: flex;
+    height: 5.896vh;
+    min-height: 57.13px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+.item3-smilecs{
+    display: flex;
+    height: 88vh;
+    overflow-y: scroll;
+    max-height: 1080px;
+}
+.item3-bar{
+    display: flex;
+    height: 5.896vh;
+    min-height: 57.13px;
+    border-left: 1px solid black;
+}
+.navigation-item3{
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+.emodzi-nav{
+    text-decoration: none;
+    display: flex;
+    flex-basis: 33.3%;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    position: relative;
+    color:black;
+    border-bottom: 1px solid black;
+}
+.emodzi-nav:after{
+    content: "";
+    display: none;
+    width: 100%;
+    height: 2px;
+    background-color: #0079E0FF;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+}
+.emodzi-nav:active{
+    color:#0079E0FF;
+}
+
+.emodzi-nav:active:after{
+    display: block;
+    color:#0079E0FF;
+}
+.sticers-nav{
+    text-decoration: none;
+    display: flex;
+    flex-basis: 33.4%;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    position: relative;
+    color:black;
+    border-bottom: 1px solid black;
+}
+.sticers-nav:active{
+    color:#0079E0FF;
+}
+.sticers-nav:after{
+    content: "";
+    display: none;
+    width: 100%;
+    height: 2px;
+    background-color: #0079E0FF;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+}
+
+.sticers-nav:active:after{
+    display: block;
+    color:#0079E0FF;
+}
+.gif-nav{
+    text-decoration: none;
+    display: flex;
+    flex-basis: 33.3%;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    position: relative;
+    color:black;
+    border-bottom: 1px solid black;
+}
+.gif-nav:active{
+    color:#0079E0FF;
+}
+.gif-nav:after{
+    content: "";
+    display: none;
+    width: 100%;
+    height: 2px;
+    background-color: #0079e0;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+}
+
+.gif-nav:active:after{
+    display: block;
+    color:#0079E0FF;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    margin: 6px;
+}
+.lines{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.line{
+    display: flex;
+}
+.line-item{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-basis: 16.6%;
+    justify-content: center;
+    align-items: center;
+}
+.line-item:hover{
+    background: #c7c5c5;
+    cursor: pointer;
+
+}
+.photo-smile{
+    font-size: 130%;
+    margin: 0;
+}
+.common-emodzi{
+    display: flex;
+    margin: 10px;
+}
+.item3-bar-item{
+    display: flex;
+    flex-basis: 12.5%;
+    justify-content: center;
+    align-items: center;
+}
+.fa-clock{
+    font-size: 135%;
+    color: black;
+}
+.fa-clock:active{
+    color:#0079E0FF;
+}
+.fa-smile.second{
+    font-size: 135%;
+    color: black;
+    opacity: 1;
+}
+
+.fa-smile.second:active{
+    color:#0079E0FF;
+}
+.fa-heartbeat{
+    font-size: 135%;
+    color: black;
+}
+.fa-heartbeat:active{
+    color:#0079E0FF;
+}
+.fa-apple-alt{
+    font-size: 135%;
+    color: black;
+}
+.fa-apple-alt:active{
+    color:#0079E0FF;
+}
+.fa-baseball-ball{
+    font-size: 135%;
+    color: black;
+}
+.fa-baseball-ball:active{
+    color:#0079E0FF;
+}
+.fa-car{
+    font-size: 135%;
+    color: black;
+}
+.fa-car:active{
+    color:#0079E0FF;
+}
+.fa-lightbulb{
+    font-size: 135%;
+    color: black;
+}
+.fa-lightbulb:active{
+    color:#0079E0FF;
+}
+.fa-heart{
+    font-size: 135%;
+    color: black;
+}
+.fa-heart:active{
+    color:#0079E0FF;
+}
+@media screen and (max-width: 1050px){
+    .item3{
+        display: none;
+    }
+}
+.menu{
+    display: flex;
+    position: absolute;
+    width: 18%;
+    height:67%;
+    bottom: 7.3%;
+    right: 1%;
+    background: url(https://look.com.ua/pic/201209/1366x768/look.com.ua-33292.jpg);
+    z-index: 1;
+    min-width: 345.59px;
+    max-height: 649.22px;
+    display: none;
+
+}
+.menu-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.menu-top{
+    display: flex;
+    flex-basis: 10%;
+    min-height: 59.77px;
+}
+.menu-center{
+    display: flex;
+    flex-basis: 80%;
+    overflow-y: scroll;
+    min-height: 300px;
+}
+.menu-bot{
+    display: flex;
+    flex-basis: 10%;
+    min-height: 59.77px;
+}
+.strelka{
+    display: flex;
+    flex-basis: 4%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   min-height: 57px;
+    min-width: 57px;
+    display: none;
+}
+.fa-arrow-left{
+    font-size: 125%;
+}
+.fa-arrow-left:hover{
+    color: #939393;
+}
+.strelka:after{
+    content: "23";
+    position: absolute;
+    width: 25px;
+    height: 17px;
+    border: 1px solid #0079E0FF;
+    right: 2px;
+    top: 8px;
+    border-radius: 35%;
+    font-size: 95%;
+    text-align: center;
+    color:white;
+    background: #0079E0FF;
+}
+@media screen and (max-width: 768px){
+    .strelka{
+        display: flex;
+    }
+    .far.fa-square{
+        display: none;
+    }
+    .item2{
+        border-left:none;
+    }
+}
+.active:{
+    color:#0079E0FF;
+
+}
