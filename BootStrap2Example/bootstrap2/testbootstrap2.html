@@ -1,0 +1,796 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap2</title>
+    <link href="testbootstrap2.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8a0043cf17.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="close.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="timer-container-small text-center background-timer">
+    <p class="countdown-number">Sale off 70%</p>
+</div>
+<section class="section-timer section-timer-down justify-content-md-center d-flex">
+    <div class="container-fluid background-timer">
+        <div class="container align-self-start timer-container">
+            <div class="d-flex col-lg justify-content-center d-flex flex-column">
+                <div class="align-self-center align-item-center justify-content-center d-flex col-12 text-start">
+                    <p id="countdown"
+                       class="section-time-text col-11 d-flex justify-content-center countdown-number my-3 timer-text-color">
+                        Today deail sale off 70%. End in <span class="days countdown-time ">
+                </span> <span class="countdown-text">days</span> <span class="hours countdown-time"></span>:<span
+                            class="minutes countdown-time"></span>:<span class="seconds countdown-time"></span> Harry up
+                    </p>
+                    <div id="close-span"
+                         class="timer-text-color d-flex col-1  justify-content-start align-items-center section-time-text-last ">
+                        <span class="section-timer-close-item d-flex justify-content-end">-close</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-head justify-content-md-center d-flex">
+    <div class="container-fluid">
+        <div class="container align-self-start d-flex height-head">
+            <div class="d-flex col-lg justify-content-center d-flex flex-column">
+                <div class="align-self-center align-item-center justify-content-start d-flex col-12 my-3">
+                    <div class="section-header col d-flex">
+                        <div class="section-header-first col-5 font-size-header">
+                            <p class="section-header-first-text">
+                                <i class="fas fa-phone-alt font-size-icon-headers"></i> +1 888 242 623
+                            </p>
+                        </div>
+                        <div class="section-header-first col font-size-header">
+                            <i class="far fa-envelope font-size-icon-headers"></i> example@mail.com
+                        </div>
+                    </div>
+                    <div class="section-header col d-flex justify-content-end margin-header-mainparth">
+                        <p class="section-header-second-text font-size-header">
+                            Summer sale discount off <span class="section-header-text-color">50</span>%! Shop Now
+                        </p>
+                    </div>
+                    <div class="section-header width-section-header-flags d-flex justify-content-end text-end">
+                        <div class="dropdown section-header-third col-4 d-flex">
+                            <div class="dropdown-toggle d-flex cursor-pointer justify-content-end" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                 aria-expanded="false">
+                                <div class="section-header-third-text col-3 d-flex justify-content-end align-items-center ">
+                                    <img class="section-header-flags "
+                                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/250px-Flag_of_the_United_States_%28Pantone%29.svg.png">
+                                </div>
+                                <div class="section-header-third-text col-6 d-flex justify-content-center align-items-center font-size-header">
+                                    $USD
+                                </div>
+                            </div>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+
+                                <li>
+                                    <div class=" d-flex cursor-pointer-hover" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="section-header-third-text col-6 d-flex justify-content-center align-items-center ">
+                                            <img class="section-header-flags width-flags "
+                                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/250px-Flag_of_Russia.svg.png">
+                                        </div>
+                                        <div class="section-header-third-text col-6 d-flex justify-content-start align-items-center font-size-header">
+                                            ₽RUB
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="d-flex cursor-pointer-hover" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="section-header-third-text col-6 d-flex justify-content-center align-items-center ">
+                                            <img class="section-header-flags width-flags"
+                                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/250px-Flag_of_Ukraine.svg.png">
+                                        </div>
+                                        <div class="section-header-third-text col-6 d-flex justify-content-start align-items-center font-size-header">
+                                            ₴UAH
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class=" d-flex cursor-pointer-hover" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="section-header-third-text col-6 d-flex justify-content-center align-items-center ">
+                                            <img class="section-header-flags width-flags"
+                                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/250px-Flag_of_Europe.svg.png">
+                                        </div>
+                                        <div class="section-header-third-text col-6 d-flex justify-content-start align-items-center font-size-header">
+                                            €EUR
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                        <div class="dropdown section-header-third col-4 d-flex">
+                            <div class="dropdown-toggle d-flex cursor-pointer justify-content-start" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                 aria-expanded="false">
+                                <div class="section-header-third-text col-3 d-flex justify-content-end align-items-center ">
+                                    <img class="section-header-flags "
+                                         src="https://purmix.ru/images/uroki/karand/raznoe/kak_narisovat_flag_velikobritanii_karandashom.gif">
+                                </div>
+                                <div class="section-header-third-text col-6 d-flex justify-content-center align-items-center font-size-header">
+                                    English
+                                </div>
+                            </div>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+
+                                <li>
+                                    <div class=" d-flex cursor-pointer-hover" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="section-header-third-text col-6 d-flex justify-content-center align-items-center ">
+                                            <img class="section-header-flags width-flags"
+                                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/250px-Flag_of_Russia.svg.png">
+                                        </div>
+                                        <div class="section-header-third-text col-6 d-flex justify-content-start align-items-center font-size-header">
+                                            Russia
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="d-flex cursor-pointer-hover" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="section-header-third-text col-6 d-flex justify-content-center align-items-center ">
+                                            <img class="section-header-flags width-flags "
+                                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/250px-Flag_of_Ukraine.svg.png">
+                                        </div>
+                                        <div class="section-header-third-text col-6 d-flex justify-content-start align-items-center font-size-header">
+                                            Ukraine
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <i class="far fa-user d-flex align-items-center"></i>
+                        <!-- Button trigger modal -->
+                            <div class="section-header-third col d-flex cursor-pointer" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                                <div class="section-header-register col font-size-header">sign in/Register</div>
+                            </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label  class="align-items-start" for="exampleInputEmail1">Email address</label>
+                                                <input type="email" class="form-control my-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Password</label>
+                                                <input type="password" class="form-control my-3" id="exampleInputPassword1" placeholder="Password">
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-danger">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-hood justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-start d-flex col-12 my-2">
+                <div class="section-hood col-3  d-flex align-items-center">
+                    <p class="section-hood-name">
+                        vllaes
+                    </p>
+                </div>
+                <div class="section-hood col-6 d-flex align-items-center mt-3">
+                    <p class="section-hood-item col d-flex justify-content-center section-head-hood-hover">Demo</p>
+                    <p class="section-hood-item-with col d-flex justify-content-center section-head-hood-hover">Shop</p>
+                    <p class="section-hood-item col d-flex justify-content-center section-head-hood-hover">Product</p>
+                    <p class="section-hood-item-with-last col d-flex justify-content-center section-header-text-color section-head-hood-hover">
+                        Sale</p>
+                    <p class="section-hood-item col d-flex justify-content-center section-head-hood-hover">Portfolio</p>
+                    <p class="section-hood-item col d-flex justify-content-center section-head-hood-hover">Lookbook</p>
+                    <p class="section-hood-item col d-flex justify-content-center section-head-hood-hover">Blog</p>
+                </div>
+                <div class="section-hood col-1"></div>
+                <div class="section-hood col-2 d-flex align-items-center mt-3">
+                    <div class="section-hood-icons col d-flex justify-content-end">
+                        <i class="fas fa-search section-head-icon-hover"></i>
+                    </div>
+                    <div class="section-hood-icons col d-flex justify-content-end">
+                        <i class="far fa-user section-head-icon-hover"></i>
+                    </div>
+                    <div class="section-hood-icons-with col d-flex justify-content-end">
+                        <i class="far fa-heart section-head-icon-hover"></i>
+                    </div>
+                    <div class="section-hood-icons-with col d-flex justify-content-end">
+                        <i class="fas fa-cart-plus section-head-icon-hover"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="carousel-wrapper flex-column justify-content-center">
+                        <div class="text-carousel text-white">SUMMER 2021</div>
+                        <div class="main-carousel text-white my-5">New Arrival Collection</div>
+                        <div class="button-carouse text-white">
+                            <button type="button" class="btn btn-light">Explore now</button>
+                        </div>
+                    </div>
+                </div>
+                <img src="https://img2.akspic.ru/originals/6/7/8/5/6/165876-krasota-model-portret-kashtanovye_volosy-guba-1920x1080.jpg "
+                     class="d-block w-100 height-carusel" alt="...">
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="carousel-wrapper flex-column justify-content-center">
+                        <div class="text-carousel text-white">SUMMER 2021</div>
+                        <div class="main-carousel text-white my-5">New Arrival Collection</div>
+                        <div class="button-carouse text-white">
+                            <button type="button" class="btn btn-light">Explore now</button>
+                        </div>
+                    </div>
+                </div>
+                <img src="https://searchthisweb.com/wallpaper/thumb1000/main1000_beautiful-girl_2560x1440_66w1t.jpg"
+                     class="d-block w-100 height-carusel" alt="...">
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="carousel-wrapper flex-column justify-content-center">
+                        <div class="text-carousel text-white">SUMMER 2021</div>
+                        <div class="main-carousel text-white my-5">New Arrival Collection</div>
+                        <div class="button-carouse text-white">
+                            <button type="button" class="btn btn-light">Explore now</button>
+                        </div>
+                    </div>
+                </div>
+                <img src="https://7themes.su/_ph/31/934072246.jpg" class="d-block w-100 height-carusel" alt="...">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-carousel-footer justify-content-md-center d-flex">
+    <div class="container-fluid">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column my-4">
+            <p class="align-self-center align-item-center justify-content-center d-flex col-12 text-start size-carousel-section-footer my-2">
+                  FREE SHIPPING WORLDWIDE NO MINIMUM PURCHASE REQIRED.
+            </p>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="section-second justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-start d-flex col-12 text-start my-5">
+                <div class="section-second-position col-6">
+                    <img class="images w-100 h-100" src="images/section-second-first-image.jpg">
+                </div>
+                <div class="section-second-position col d-flex flex-column mx-5">
+                    <div class="images-second col">
+                        <img class="images w-100 h-100 pb-4" src="images/sumka.jpg">
+                        <div class="active-button-section-second">
+                            <button type="button" class="btn btn-outline-secondary">Acessories</button>
+                        </div>
+                    </div>
+                    <div class="images-second col">
+                        <img class="images w-100 h-100 pt-4" src="images/photo_2021-10-01_13-35-18.jpg">
+                        <div class="active-button-section-second-2">
+                            <button type="button" class="btn btn-outline-secondary">Footwear</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-second-position col">
+                    <img class="images w-100 h-100"
+                         src="https://www.carollinum.cz/Carollinum/media/static-metafiles/d23c66de-250d-4fbf-a13b-62b0c0b657ad@w400.webp">
+                         <div class="active-button-section-3">
+                        <button type="button" class="btn btn-outline-secondary">Watches</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-three-title justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-start d-flex col-12 text-start d-flex flex-column mt-4">
+                <p class="text-title-section-three-title d-flex justify-content-center">VLLASE.CO BOUTIQUE</p>
+                <p class="text-title-section-three-subtitle d-flex justify-content-center mt-4 mb-5">pellentesque
+                    scelerisque eget lectus vitae congue. Phasellus us laoreet purus. Proin accumsan commodo venenatis.
+                    Nunc nedolus<br>
+                    vestibulub nisl sit amet tristique libero. Nulla cursus hendrerit facilisis. Duis mattis sit amet
+                    neque etos cosmo condimentum aliquam<br>
+                    deratorum volutpat nam scelerisque ipsum accumsan lorem placerat dignissim.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-three-content justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex">
+            <div class="align-self-center align-item-center justify-content-start d-flex col-12 text-start flex-column">
+                <div class="section-three-content-lines-first d-flex">
+                    <div class="section-three-imtems-first col"></div>
+                    <div class="section-three-imtems-second col mx-5"></div>
+                    <div class="section-three-imtems-third col"></div>
+
+                </div>
+                <div class="section-three-content-lines-second d-flex my-5">
+                    <div class="section-three-imtems-fourd col"></div>
+                    <div class="section-three-imtems-five col"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-three-title justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-start d-flex col-12 text-start d-flex flex-column mt-4">
+                <p class="text-title-section-three-title d-flex justify-content-center">Best Seller Products</p>
+                <p class="text-title-section-three-subtitle d-flex justify-content-center mt-3 mb-5">
+                    Our pieces are as beatiful and unique as the babes who purchase them
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-fourd-content justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-start d-flex col-12 text-start d-flex flex-column ">
+
+                <div class="section-fourd-line-first d-flex">
+                    <div class="section-fourd-line-item col">
+                        <img class="section-fourd-item-img w-100" src="images/section-fournd-img-1.jpg">
+                        <div class="item-fourd-title d-flex justify-content-center mt-5">
+                            <p class="item-fourd-title-text">
+                                Pack Pop Set
+                            </p>
+                        </div>
+                        <div class="item-fournd-subtitle d-flex justify-content-center mb-5">
+                            <p class="item-fourd-subtitle-text">
+                                $45.00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-fourd-line-item col mx-5">
+                        <img class="section-fourd-item-img w-100" src="images/section-fournd-img-2.jpg">
+                        <div class="item-fourd-title d-flex justify-content-center mt-5">
+                            <p class="item-fourd-title-text">
+                                Analogue Resin
+                            </p>
+                        </div>
+                        <div class="item-fournd-subtitle d-flex justify-content-center mb-5">
+                            <p class="item-fourd-subtitle-text">
+                                $60.00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-fourd-line-item col">
+                        <img class="section-fourd-item-img w-100" src="images/section-fournd-img-3.jpg">
+                        <div class="item-fourd-title d-flex justify-content-center mt-5">
+                            <p class="item-fourd-title-text">
+                                Cyan Boheme
+                            </p>
+                        </div>
+                        <div class="item-fournd-subtitle d-flex justify-content-center mb-5">
+                            <p class="item-fourd-subtitle-text">
+                                $70.00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-fourd-line-item section-fourd-line-item-last col">
+                        <img class="section-fourd-item-img w-100" src="images/section-fournd-img-4.jpg">
+                        <div class="item-fourd-title d-flex justify-content-center mt-5">
+                            <p class="item-fourd-title-text">
+                                Unisex T-Shirt
+                            </p>
+                        </div>
+                        <div class="item-fournd-subtitle d-flex justify-content-center mb-5">
+                            <p class="item-fourd-subtitle-text">
+                                $30.00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-fourd-line-second d-flex">
+                    <div class="section-fourd-line-item col">
+                        <img class="section-fourd-item-img w-100" src="images/section-fournd-img-5.jpg">
+                        <div class="item-fourd-title d-flex justify-content-center mt-5">
+                            <p class="item-fourd-title-text">
+                                Denim Shirt
+                            </p>
+                        </div>
+                        <div class="item-fournd-subtitle d-flex justify-content-center mb-5">
+                            <p class="item-fourd-subtitle-text">
+                                $80.00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-fourd-line-item col mx-5">
+                        <img class="section-fourd-item-img w-100" src="images/section-fournd-img-6.jpg">
+                        <div class="item-fourd-title d-flex justify-content-center mt-5">
+                            <p class="item-fourd-title-text">
+                                Weekend T-Shirt
+                            </p>
+                        </div>
+                        <div class="item-fournd-subtitle d-flex justify-content-center mb-5">
+                            <p class="item-fourd-subtitle-text">
+                                $55.00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-fourd-line-item col">
+                        <img class="section-fourd-item-img w-100" src="images/section-fournd-img-7.jpg">
+                        <div class="item-fourd-title d-flex justify-content-center mt-5">
+                            <p class="item-fourd-title-text">
+                                Premium Clean package
+                            </p>
+                        </div>
+                        <div class="item-fournd-subtitle d-flex justify-content-center mb-5">
+                            <p class="item-fourd-subtitle-text">
+                                $50.00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-fourd-line-item section-fourd-line-item-last col">
+                        <img class="section-fourd-item-img w-100" src="images/section-fournd-img-8.jpg">
+                        <div class="item-fourd-title d-flex justify-content-center mt-5">
+                            <p class="item-fourd-title-text">
+                                Herschel Retreat
+                            </p>
+                        </div>
+                        <div class="item-fournd-subtitle d-flex justify-content-center mb-5">
+                            <p class="item-fourd-subtitle-text">
+                                $75.00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="section-fourd-foot justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-center d-flex col-12 text-start">
+                <button type="button" class="btn btn-outline-secondary button-section-4 mb-5">Load More</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-three-title justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-start d-flex col-12 text-start d-flex flex-column mt-4">
+                <p class="text-title-section-three-title-with d-flex justify-content-center">From The Blogs</p>
+                <p class="text-title-section-three-subtitle d-flex justify-content-center mt-3 mb-5">
+                    The freshest and most exciting news
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-five-content justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-start d-flex col-12 text-start">
+                <div class="section-five-items col mb-5">
+                    <img class="item-five-img w-100 mb-3" src="images/item-five-1.JPG">
+                    <p class="item-five-date item-five_date">
+                        On JUNE 16,2021
+                    </p>
+                    <p class="item-five-title my-4 item-five_title">
+                        Getting Ready With: Rebecca
+                    </p>
+                    <p class="item-five-text item-five_text">
+                        As the capability to create typography has become<br>
+                        ubiquitous, the application of principles and best<br>
+                        practices dev...
+                    </p>
+                </div>
+                <div class="section-five-items col mx-5 mb-5">
+                    <img class="item-five-img w-100 mb-3" src="images/item-five-2.JPG">
+                    <p class="item-five-date item-five_date">
+                        On JUNE 16,2021
+                    </p>
+                    <p class="item-five-title my-4 item-five_title">
+                        The lifestyle of young girl
+                    </p>
+                    <p class="item-five-text item-five_text">
+                        The lifestyle of young girl<br>
+                        Until the Digital Age, typography was a specialized<br>
+                        occupation. Digitization opened up typography to new<br>
+                        generatio...
+                    </p>
+                </div>
+                <div class="section-five-items col mb-5">
+                    <img class="item-five-img w-100 mb-3" src="images/item-five-3.JPG">
+                    <p class="item-five-date item-five_date">
+                        On JUNE 16,2021
+                    </p>
+                    <p class="item-five-title my-4 item-five_title">
+                        Make your weekend delicious
+                    </p>
+                    <p class="item-five-text item-five_text">
+                        Typography is the work of typesetters,<br>
+                        compositors, typographers, graphic designers,<br>
+                        art directors, manga artists...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-three-title justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-start d-flex col-12 text-start d-flex flex-column">
+                <p class="text-title-section-three-title-new d-flex justify-content-center my-5">
+                    @FOLLOW US ON INSTAGRAM
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-six justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-start d-flex col-12 text-start mt-4">
+                <div class="section-six-img col">
+                    <img class="section-six-setting w-100 h-100" src="images/section-six-1.jpg">
+                </div>
+                <div class="section-six-img col">
+                    <img class="section-six-setting w-100 h-100" src="images/section-six-2.jpg">
+                </div>
+                <div class="section-six-img col">
+                    <img class="section-six-setting w-100 h-100" src="images/section-six-3.jpg">
+                </div>
+                <div class="section-six-img col">
+                    <img class="section-six-setting w-100 h-100" src="images/section-six-4.jpg">
+                </div>
+                <div class="section-six-img col">
+                    <img class="section-six-setting w-100 h-100" src="images/section-six-5.jpg">
+                </div>
+                <div class="section-six-img col">
+                    <img class="section-six-setting w-100 h-100" src="images/section-six-6.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-six-footer justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-center d-flex col-12 text-center">
+                <div class="section-six-footer-item col my-5">
+                    <div class="section-six-title-wrapper col-12 d-flex align-items-center justify-content-center mb-4 margin-left-section-six-footer-title">
+                        <i class="fas fa-truck-moving col-1 icon-color"></i>
+                        <p class="section-six-footer-title section-six-footer-size-title">FREE SHIPING</p>
+                    </div>
+                    <p class="section-six-footer-text last-item-section-seven">
+                        Free shiping on all US order or<br>
+                        order above $100
+                    </p>
+                </div>
+                <div class="section-six-footer-item col my-5">
+                    <div class="section-six-title-wrapper col-12 d-flex align-items-center justify-content-center mb-4 margin-left-section-six-footer-title">
+                        <i class="fas fa-life-ring col-1 icon-color"></i>
+                        <p class="section-six-footer-title section-six-footer-size-title">SUPPORT 24/7</p>
+                    </div>
+                    <p class="section-six-footer-text last-item-section-seven">
+                        Contact us 24 hours a<br>
+                        day, 7 days a week
+                    </p>
+                </div>
+                <div class="section-six-footer-item col my-5">
+                    <div class="section-six-title-wrapper col-12 d-flex align-items-center justify-content-center mb-4 margin-left-section-six-footer-title">
+                        <i class="fas fa-undo-alt col-1 icon-color"></i>
+                        <p class="section-six-footer-title section-six-footer-size-title">30 DAYS RETURN</p>
+                    </div>
+                    <p class="section-six-footer-text last-item-section-seven">
+                        Simply return it within 30<br>
+                        days for an exchange.
+                    </p>
+                </div>
+                <div class="section-six-footer-item col my-5">
+                    <div class="section-six-title-wrapper col-12 d-flex align-items-center justify-content-center mb-4 margin-left-section-six-footer-title">
+                        <i class="fas fa-shield-alt col-1 icon-color"></i>
+                        <p class="section-six-footer-title section-six-footer-size-title">100% PAYMENT SECURE</p>
+                    </div>
+                    <p class="section-six-footer-text last-item-section-seven">
+                        We ensure secure payment<br>
+                        with PEV
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-seven justify-content-md-center d-flex">
+    <div class="container-fluid">
+        <div class="container align-self-start my-4">
+            <div class="d-flex col-lg justify-content-center d-flex flex-column">
+                <div class="align-self-center align-item-center justify-content-start d-flex col-12 text-start mb-5">
+                    <div class="section-seven-lines">
+                        <p class="section-seven-item-name section-hood-name">
+                            vllaes
+                        </p>
+                        <div class="section-seven-line-wrap col-12 d-flex">
+                            <div class="col-2 d-flex align-items-center">
+                                <i class="fas fa-map-marker-alt size-item-seven"></i>
+                            </div>
+                        <p class="section-seven-item-position size-item-seven line-height-item-first-page-seven margin-section-seven-correct-first col-10">
+                            6800 Vista Del Norte<br>
+                            Rd NE US
+                        </p>
+                        </div>
+                        <div class="section-seven-line-wrap col-12 d-flex">
+                            <div class="col-2 d-flex align-items-center">
+                                <i class="far fa-envelope size-item-seven"></i>
+                            </div>
+                        <p class="section-seven-item-mail size-item-seven line-height-item-second-page-seven">
+                            contact@company.com
+                        </p>
+
+                        </div>
+                        <div class="section-seven-line-wrap col-12 d-flex">
+                            <div class="col-2 d-flex align-items-center">
+                                <i class="fas fa-phone-alt size-item-seven"></i>
+                            </div>
+                        <p class="section-seven-item-telephone size-item-seven line-height-item-second-page-seven">
+                            +1 6462662535
+                        </p>
+                        </div>
+                        <div class="section-seven-item-icons size-item-seven line-height-item-second-page-seven d-flex">
+                            <div class="icons-line col">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="icons-line col">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="icons-line col">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <div class="icons-line col">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="icons-line col">
+                                <i class="fab fa-pinterest-p"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="section-seven-lines margin-item-section-seven margin-beetwen-item-section-seven">
+                        <p class="section-seven-item-title  size-item-footer-section-seven">
+                            Categories
+                        </p>
+                        <div class="section-seven-item-text margin-text-item-section-seven size-item-seven line-height-item-seven">
+                            <p class="section-last-items-hover">Men</p>
+                            <p class="section-last-items-hover">Women</p>
+                            <p class="section-last-items-hover">Accessorie</p>
+                            <p class="section-last-items-hover">Shoes</p>
+                            <p class="section-last-items-hover">Denim</p>
+                            <p class="section-last-items-hover">Dress</p>
+                        </div>
+                    </div>
+                    <div class="section-seven-lines margin-item-section-seven">
+                        <p class="section-seven-item-title size-item-footer-section-seven">
+                            Information
+                        </p>
+                        <div class="section-seven-item-text margin-text-item-section-seven size-item-seven line-height-item-seven">
+                            <p class="section-last-items-hover">About Us</p>
+                            <p class="section-last-items-hover">Contack Us</p>
+                            <p class="section-last-items-hover">Terms & Conditions</p>
+                            <p class="section-last-items-hover">Returns & Exchanges</p>
+                            <p class="section-last-items-hover">Shipping & Delivery</p>
+                            <p class="section-last-items-hover">Privacy Policy</p>
+                        </div>
+                    </div>
+                    <div class="section-seven-lines margin-item-section-seven">
+                        <p class="section-seven-item-title  size-item-footer-section-seven">
+                            Useful links
+                        </p>
+                        <div class="section-seven-item-text margin-text-item-section-seven size-item-seven line-height-item-seven">
+                            <p class="section-last-items-hover">Store Location</p>
+                            <p class="section-last-items-hover">Latest News</p>
+                            <p class="section-last-items-hover">My Account</p>
+                            <p class="section-last-items-hover">Size Guide</p>
+                            <p class="section-last-items-hover">FAQs</p>
+                            <p class="section-last-items-hover">FAQs 2</p>
+                        </div>
+                    </div>
+                    <div class="section-seven-lines-end margin-item-section-seven">
+                        <p class="section-seven-item-title size-item-footer-section-seven ">
+                            Newsletter Signup
+                        </p>
+                        <p class="section-seven-item-text margin-text-item-section-seven size-item-seven margin-section-seven-correct-second">
+                            Subscribe to our newsletter and get<br>
+                            10% off your first purchase
+                        </p>
+                        <div class="section-seven-area d-flex col-7 last-item-section-seven-margin">
+                            <p class="fist-line-area d-flex align-items-center last-item-section-seven ">Your email address</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-project-end  justify-content-md-center d-flex">
+    <div class="container align-self-start">
+        <div class="d-flex col-lg justify-content-center d-flex flex-column">
+            <div class="align-self-center align-item-center justify-content-start d-flex col-12 text-start my-4">
+                <div class="section-project-end-item col-8">
+                    <p class="section-project-end-item-text setting-text-project-end-section">
+                        Copyright © 2021 vllaes all rights reserved. Powered by The4
+                    </p>
+                </div>
+                <div class="section-project-end-item col-4 d-flex text-end setting-text-project-end-section">
+                    <p class="setcion-project-end-nav col">Shop</p>
+                    <p class="setcion-project-end-nav col">About Us</p>
+                    <p class="setcion-project-end-nav col">Contact</p>
+                    <p class="setcion-project-end-nav col">Blog</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+<script src="js2.js"></script>
+</body>

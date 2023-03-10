@@ -1,0 +1,486 @@
+* {
+    font-family: SansSerif;
+}
+
+.images-second{
+    position: relative;
+}
+.section-second-position{
+    position: relative;
+}
+.active-button-section-second{
+    position: absolute;
+    bottom: 16%;
+    left: 23.5%;
+}
+.active-button-section-second-2{
+    position: absolute;
+    bottom: 10%;
+    left: 23.5%
+}
+.active-button-section-3{
+    position: absolute;
+    bottom: 5%;
+    left: 23.5%;
+}
+.btn-outline-secondary{
+    background: white!important;
+    color: black!important;
+    height: 60px;
+    width: 200px;
+    border-color: white!important;
+    border-radius: 0!important;
+    font-weight: 600!important;
+    font-size: 1.1rem!important;
+}
+.container{
+    padding: 0!important;
+    max-width: 1700px!important;
+}
+.text-title-section-three-subtitle{
+    font-weight: 600;
+    font-size: 1.30rem;
+    color: grey;
+    text-align: center;
+}
+.text-title-section-three-title{
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding-left: 40px;
+}
+.section-three-imtems-first{
+    background-image: url("https://alamode.ru/image/catalog/blog/stil-casual-v-odezhde-dlja-zhenschin/3.jpg");
+    height: 650px;
+    background-size: cover;
+}
+.section-three-imtems-second{
+    background-image: url("https://mirvpalto.ru/image/cache/catalog/collect/L-80-550x700.JPG");
+    height: 650px;
+    background-size: cover;
+}
+.section-three-imtems-third{
+    background-image: url("https://vyshyvanka.com.ua/files/products/neveroyatno-izyaschnoe-zelenoe-plate-v-pol-s-vyshivkoj-p16-7-236.550x700.jpg");
+    height: 650px;
+    background-size: cover;
+}
+.section-three-imtems-fourd{
+    background-image: url("https://s13.favim.com/orig/170206/casual-fashion-girl-goals-Favim.com-5044738.jpeg");
+    height: 650px;
+    background-size: cover;
+    max-width: 534.67px;
+}
+.section-three-imtems-five{
+    background-image: url("https://img5.goodfon.ru/wallpaper/nbig/a/81/kylie-jenner-quay-kaili-dzhenner-model-ochki-goluboi-fon-bri.jpg");
+    height: 650px;
+    background-size: cover;
+    margin-left: 48px;
+}
+.item-fourd-title-text{
+    margin-top: 48px;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.item-fourd-subtitle-text {
+    font-size: 1.45rem;
+    font-weight: 600;
+}
+p{
+    margin: 0!important;
+}
+.section-fourd-line-item.section-fourd-line-item-last{
+    margin-left: 48px;
+}
+.button-section-4{
+    border-radius: 15% / 48%!important;
+    border: 2px solid black!important;
+    width: 220px;
+    height: 70px;
+    font-size: 20px!important;
+    font-weight: 700!important;
+}
+.text-title-section-three-title.d-flex{
+    padding-left: 0;
+}
+.item-five_date{
+    font-weight: 600;
+}
+.item-five_title{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.item-five_text{
+    color: grey;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    font-weight: 500;
+}
+.text-title-section-three-title-with{
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding-left: 40px;
+    position: relative;
+}
+.text-title-section-three-title-with:before{
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 3px;
+    background: black;
+    top: 50%;
+    right: 36%;
+}
+.text-title-section-three-title-with:after{
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 3px;
+    background: black;
+    top: 50%;
+    left: 36%;
+}
+
+.text-title-section-three-title-with.d-flex{
+    padding:0;
+}
+.text-title-section-three-title-new{
+    font-weight: 600;
+    font-size: 1.9rem;
+    position: relative;
+}
+.text-title-section-three-title-new:after{
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 3px;
+    background: black;
+    top: 50%;
+    left: 31%;
+}
+.text-title-section-three-title-new:before{
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 3px;
+    background: black;
+    top: 50%;
+    right: 31%;
+}
+.container-fluid{
+    padding:0!important;
+    background:#f5f5f5;
+}
+.section-seven-lines{
+    width: 18.75%;
+}
+
+.section-seven-lines-end{
+    width: 25%;
+}
+.section-seven-area{
+    border: 2px solid;
+}
+[data-bs-target]{
+    border-radius:50%;
+    width: 20px!important;
+    height: 20px!important;
+    margin: 0 20px!important;
+}
+.section-time-text span{
+    margin: 0 2px;
+}
+.section-time-text{
+    font-size: 1.5rem;
+    margin-left: 150px!important;
+}
+.section-time-text-last{
+    font-size: 1.5rem;
+}
+.background-timer{
+    background:#fb196d;
+}
+.timer-text-color{
+    color: white;
+}
+.font-size-header{
+    font-size: 1.25rem;
+    color: grey;
+    font-weight: 400;
+}
+.section-header-text-color{
+    color: red;
+}
+.font-size-icon-headers{
+    font-size: 1.10vw;
+}
+.section-header-flags{
+    width: 80%;
+    height: 55%;
+}
+.width-section-header-flags{
+    width: 466.67px!important;
+}
+.margin-header-mainparth{
+    margin-right: 180px;
+}
+.margin-beetween-header{
+    margin-left: -40px;
+}
+.height-head{
+    height: 68px;
+}
+.section-hood-name{
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+.section-hood-item{
+    font-size: 1.25vw;
+    font-weight: 500;
+    border-radius: 15% / 50%;
+}
+.section-hood-icons{
+    font-size: 1.3vw;
+}
+.section-hood-icons-with{
+    font-size: 1.3vw;
+    position: relative;
+}
+.section-hood-icons-with:after{
+    position: absolute;
+    content: "0";
+    font-size: 15px;
+    height: 18px;
+    width: 18px;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -10px;
+    right: -10%;
+}
+.section-hood-item-with{
+    font-size: 1.25vw;
+    font-weight: 500;
+    position: relative;
+    border-radius: 15% / 50%;
+}
+.section-hood-item-with-last{
+    font-size: 1.25vw;
+    font-weight: 500;
+    position: relative;
+    border-radius: 15% / 50%;
+}
+.section-hood-item-with:after{
+    content: "New";
+    position: absolute;
+    font-size: 15px;
+    width: 58px;
+    height: 25px;
+    background: #1992d9;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27% / 57%;
+    top: -18px;
+    right: 8%;
+    color: white;
+}
+.section-hood-item-with-last:after{
+    content: "Sale";
+    position: absolute;
+    font-size: 15px;
+    width: 58px;
+    height: 25px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27% / 57%;
+    top: -18px;
+    right: 8%;
+    color: white;
+}
+.height-carusel{
+    height: 900px!important;
+}
+.carusel-item{
+    position: relative;
+}
+.carousel-wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.text-carousel{
+    font-size: 2.5vw;
+}
+.main-carousel{
+    font-size: 5vw;
+}
+.btn-light{
+    border-radius: 0!important;
+    width: 220px;
+    height: 65px;
+    font-size: 1vw!important;
+    font-weight: 500!important;
+}
+.section-timer-close-item {
+    cursor: pointer;
+}
+
+.timer-container-small {
+    position: fixed;
+    display: none;
+    z-index: 999;
+    top: 100px;
+    height: 55px;
+    cursor: pointer;
+    width: 73px;
+    border: 2px solid #6b001e;
+    border-radius: 0 10px 10px 0;
+}
+.dropdown-toggle::after{
+    display: none!important;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.dropdown-menu{
+    background:#f5f5f5!important;
+}
+.cursor-pointer-hover{
+    cursor: pointer;
+}
+.cursor-pointer-hover:hover{
+    background:#c1c1c1;
+}
+.width-flags{
+    width: 39.36%;
+}
+.section-header-third {
+    margin: 0!important;
+}
+.form-group{
+    text-align: left;
+}
+.form-check{
+    text-align: left;
+}
+.size-carousel-section-footer{
+    font-size: 1vw;
+    font-weight: 500;
+}
+.size-item-footer-section-seven{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+.margin-item-section-seven{
+    margin-top: 40px;
+}
+.margin-text-item-section-seven{
+    margin-top: 20px!important;
+}
+.size-item-seven{
+    color: #464141;
+    font-size: 1.25vw;
+    font-weight: 500;
+}
+.line-height-item-seven{
+    line-height: 2;
+}
+.line-height-item-first-page-seven{
+    line-height: 1.68;
+}
+.line-height-item-second-page-seven{
+    line-height: 3;
+}
+.margin-beetwen-item-section-seven{
+    margin-left: 110px;
+}
+.margin-section-seven-correct-first{
+    margin-top: 3px;
+}
+.margin-section-seven-correct-second{
+    margin-top: 25px!important;
+}
+.section-seven-area{
+    width: 390px!important;
+    height: 60px;
+    border-radius: 8% / 50%;
+    position: relative;
+}
+.section-seven-area:after{
+    content: "Subscribe";
+    position: absolute;
+    width: 120px;
+    height: 47px;
+    right: 10px;
+    background: black;
+    top: 6%;
+    border-radius: 19% / 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.last-item-section-seven{
+    font-size: 1.2vw;
+    padding-left: 20px;
+    color: grey;
+}
+.last-item-section-seven-margin{
+    margin-top: 55px;
+}
+.in{
+    font-weight: 900;
+}
+.icons-line:hover.icons-line{
+    cursor: pointer;
+    display: flex;
+    color: red;
+}
+.section-last-items-hover:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+.icon-color{
+    color: #3d3d3d;
+    font-size: 1.2vw;
+}
+.section-six-footer-size-title{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+.margin-left-section-six-footer-title{
+    margin-left: 6px;
+}
+.fa-undo-alt{
+    position: relative;
+}
+.fa-undo-alt:after{
+    position: absolute;
+    content: "30";
+    font-size: 10px;
+    top: 6px;
+    left: 13px;
+    color: black;
+}
+.section-head-hood-hover:hover{
+    background: #b2b2b2;
+    cursor: pointer;
+}
+.section-head-icon-hover:hover{
+    color: red;
+    cursor: pointer;
+}
+.setting-text-project-end-section{
+    font-size: 1.2vw;
+    color: grey;
+    cursor: pointer;
+}
+.setcion-project-end-nav:hover{
+    font-weight: 700;
+    color: black;
+}
